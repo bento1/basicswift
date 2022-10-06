@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0583550128EE80F400655D9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583550028EE80F400655D9F /* AppDelegate.swift */; };
+		0583550328EE80F400655D9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583550228EE80F400655D9F /* SceneDelegate.swift */; };
+		0583550528EE80F400655D9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583550428EE80F400655D9F /* ViewController.swift */; };
+		0583550828EE80F400655D9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0583550628EE80F400655D9F /* Main.storyboard */; };
+		0583550A28EE80F500655D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0583550928EE80F500655D9F /* Assets.xcassets */; };
+		0583550D28EE80F500655D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0583550B28EE80F500655D9F /* LaunchScreen.storyboard */; };
+		0583551828EE80F600655D9F /* neonsign_StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583551728EE80F600655D9F /* neonsign_StoryboardTests.swift */; };
+		0583552228EE80F600655D9F /* neonsign_StoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583552128EE80F600655D9F /* neonsign_StoryboardUITests.swift */; };
+		0583552428EE80F600655D9F /* neonsign_StoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583552328EE80F600655D9F /* neonsign_StoryboardUITestsLaunchTests.swift */; };
+		0583553128EE8BDD00655D9F /* SuguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583553028EE8BDD00655D9F /* SuguePushViewController.swift */; };
+		0583553328EE8DB800655D9F /* SuguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583553228EE8DB800655D9F /* SuguePresentViewController.swift */; };
+		0583553528EE954500655D9F /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583553428EE954500655D9F /* CodePushViewController.swift */; };
+		0583553728EE955400655D9F /* CodePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583553628EE955400655D9F /* CodePresentViewController.swift */; };
+		0583553928EECAD400655D9F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583553828EECAD400655D9F /* SettingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0583551428EE80F600655D9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058354F528EE80F400655D9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058354FC28EE80F400655D9F;
+			remoteInfo = neonsign_Storyboard;
+		};
+		0583551E28EE80F600655D9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058354F528EE80F400655D9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058354FC28EE80F400655D9F;
+			remoteInfo = neonsign_Storyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058354FD28EE80F400655D9F /* neonsign_Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neonsign_Storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0583550028EE80F400655D9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0583550228EE80F400655D9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0583550428EE80F400655D9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0583550728EE80F400655D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0583550928EE80F500655D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0583550C28EE80F500655D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0583550E28EE80F500655D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0583551328EE80F600655D9F /* neonsign_StoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neonsign_StoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0583551728EE80F600655D9F /* neonsign_StoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neonsign_StoryboardTests.swift; sourceTree = "<group>"; };
+		0583551D28EE80F600655D9F /* neonsign_StoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neonsign_StoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0583552128EE80F600655D9F /* neonsign_StoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neonsign_StoryboardUITests.swift; sourceTree = "<group>"; };
+		0583552328EE80F600655D9F /* neonsign_StoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neonsign_StoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0583553028EE8BDD00655D9F /* SuguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePushViewController.swift; sourceTree = "<group>"; };
+		0583553228EE8DB800655D9F /* SuguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePresentViewController.swift; sourceTree = "<group>"; };
+		0583553428EE954500655D9F /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
+		0583553628EE955400655D9F /* CodePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePresentViewController.swift; sourceTree = "<group>"; };
+		0583553828EECAD400655D9F /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058354FA28EE80F400655D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0583551028EE80F600655D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0583551A28EE80F600655D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058354F428EE80F400655D9F = {
+			isa = PBXGroup;
+			children = (
+				058354FF28EE80F400655D9F /* neonsign_Storyboard */,
+				0583551628EE80F600655D9F /* neonsign_StoryboardTests */,
+				0583552028EE80F600655D9F /* neonsign_StoryboardUITests */,
+				058354FE28EE80F400655D9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		058354FE28EE80F400655D9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				058354FD28EE80F400655D9F /* neonsign_Storyboard.app */,
+				0583551328EE80F600655D9F /* neonsign_StoryboardTests.xctest */,
+				0583551D28EE80F600655D9F /* neonsign_StoryboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		058354FF28EE80F400655D9F /* neonsign_Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0583550028EE80F400655D9F /* AppDelegate.swift */,
+				0583550228EE80F400655D9F /* SceneDelegate.swift */,
+				0583550428EE80F400655D9F /* ViewController.swift */,
+				0583550628EE80F400655D9F /* Main.storyboard */,
+				0583550928EE80F500655D9F /* Assets.xcassets */,
+				0583550B28EE80F500655D9F /* LaunchScreen.storyboard */,
+				0583550E28EE80F500655D9F /* Info.plist */,
+				0583553028EE8BDD00655D9F /* SuguePushViewController.swift */,
+				0583553228EE8DB800655D9F /* SuguePresentViewController.swift */,
+				0583553428EE954500655D9F /* CodePushViewController.swift */,
+				0583553628EE955400655D9F /* CodePresentViewController.swift */,
+				0583553828EECAD400655D9F /* SettingViewController.swift */,
+			);
+			path = neonsign_Storyboard;
+			sourceTree = "<group>";
+		};
+		0583551628EE80F600655D9F /* neonsign_StoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				0583551728EE80F600655D9F /* neonsign_StoryboardTests.swift */,
+			);
+			path = neonsign_StoryboardTests;
+			sourceTree = "<group>";
+		};
+		0583552028EE80F600655D9F /* neonsign_StoryboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0583552128EE80F600655D9F /* neonsign_StoryboardUITests.swift */,
+				0583552328EE80F600655D9F /* neonsign_StoryboardUITestsLaunchTests.swift */,
+			);
+			path = neonsign_StoryboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		058354FC28EE80F400655D9F /* neonsign_Storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0583552728EE80F600655D9F /* Build configuration list for PBXNativeTarget "neonsign_Storyboard" */;
+			buildPhases = (
+				058354F928EE80F400655D9F /* Sources */,
+				058354FA28EE80F400655D9F /* Frameworks */,
+				058354FB28EE80F400655D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = neonsign_Storyboard;
+			productName = neonsign_Storyboard;
+			productReference = 058354FD28EE80F400655D9F /* neonsign_Storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0583551228EE80F600655D9F /* neonsign_StoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0583552A28EE80F600655D9F /* Build configuration list for PBXNativeTarget "neonsign_StoryboardTests" */;
+			buildPhases = (
+				0583550F28EE80F600655D9F /* Sources */,
+				0583551028EE80F600655D9F /* Frameworks */,
+				0583551128EE80F600655D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0583551528EE80F600655D9F /* PBXTargetDependency */,
+			);
+			name = neonsign_StoryboardTests;
+			productName = neonsign_StoryboardTests;
+			productReference = 0583551328EE80F600655D9F /* neonsign_StoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0583551C28EE80F600655D9F /* neonsign_StoryboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0583552D28EE80F600655D9F /* Build configuration list for PBXNativeTarget "neonsign_StoryboardUITests" */;
+			buildPhases = (
+				0583551928EE80F600655D9F /* Sources */,
+				0583551A28EE80F600655D9F /* Frameworks */,
+				0583551B28EE80F600655D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0583551F28EE80F600655D9F /* PBXTargetDependency */,
+			);
+			name = neonsign_StoryboardUITests;
+			productName = neonsign_StoryboardUITests;
+			productReference = 0583551D28EE80F600655D9F /* neonsign_StoryboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058354F528EE80F400655D9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					058354FC28EE80F400655D9F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					0583551228EE80F600655D9F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 058354FC28EE80F400655D9F;
+					};
+					0583551C28EE80F600655D9F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 058354FC28EE80F400655D9F;
+					};
+				};
+			};
+			buildConfigurationList = 058354F828EE80F400655D9F /* Build configuration list for PBXProject "neonsign_Storyboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 058354F428EE80F400655D9F;
+			productRefGroup = 058354FE28EE80F400655D9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				058354FC28EE80F400655D9F /* neonsign_Storyboard */,
+				0583551228EE80F600655D9F /* neonsign_StoryboardTests */,
+				0583551C28EE80F600655D9F /* neonsign_StoryboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058354FB28EE80F400655D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0583550D28EE80F500655D9F /* LaunchScreen.storyboard in Resources */,
+				0583550A28EE80F500655D9F /* Assets.xcassets in Resources */,
+				0583550828EE80F400655D9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0583551128EE80F600655D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0583551B28EE80F600655D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058354F928EE80F400655D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0583553328EE8DB800655D9F /* SuguePresentViewController.swift in Sources */,
+				0583553528EE954500655D9F /* CodePushViewController.swift in Sources */,
+				0583553128EE8BDD00655D9F /* SuguePushViewController.swift in Sources */,
+				0583553928EECAD400655D9F /* SettingViewController.swift in Sources */,
+				0583550528EE80F400655D9F /* ViewController.swift in Sources */,
+				0583553728EE955400655D9F /* CodePresentViewController.swift in Sources */,
+				0583550128EE80F400655D9F /* AppDelegate.swift in Sources */,
+				0583550328EE80F400655D9F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0583550F28EE80F600655D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0583551828EE80F600655D9F /* neonsign_StoryboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0583551928EE80F600655D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0583552428EE80F600655D9F /* neonsign_StoryboardUITestsLaunchTests.swift in Sources */,
+				0583552228EE80F600655D9F /* neonsign_StoryboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0583551528EE80F600655D9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058354FC28EE80F400655D9F /* neonsign_Storyboard */;
+			targetProxy = 0583551428EE80F600655D9F /* PBXContainerItemProxy */;
+		};
+		0583551F28EE80F600655D9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058354FC28EE80F400655D9F /* neonsign_Storyboard */;
+			targetProxy = 0583551E28EE80F600655D9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0583550628EE80F400655D9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0583550728EE80F400655D9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0583550B28EE80F500655D9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0583550C28EE80F500655D9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0583552528EE80F600655D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0583552628EE80F600655D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0583552828EE80F600655D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = neonsign_Storyboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongunyun.neonsign-Storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0583552928EE80F600655D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = neonsign_Storyboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongunyun.neonsign-Storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0583552B28EE80F600655D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongunyun.neonsign-StoryboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neonsign_Storyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/neonsign_Storyboard";
+			};
+			name = Debug;
+		};
+		0583552C28EE80F600655D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongunyun.neonsign-StoryboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neonsign_Storyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/neonsign_Storyboard";
+			};
+			name = Release;
+		};
+		0583552E28EE80F600655D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongunyun.neonsign-StoryboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = neonsign_Storyboard;
+			};
+			name = Debug;
+		};
+		0583552F28EE80F600655D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongunyun.neonsign-StoryboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = neonsign_Storyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058354F828EE80F400655D9F /* Build configuration list for PBXProject "neonsign_Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0583552528EE80F600655D9F /* Debug */,
+				0583552628EE80F600655D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0583552728EE80F600655D9F /* Build configuration list for PBXNativeTarget "neonsign_Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0583552828EE80F600655D9F /* Debug */,
+				0583552928EE80F600655D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0583552A28EE80F600655D9F /* Build configuration list for PBXNativeTarget "neonsign_StoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0583552B28EE80F600655D9F /* Debug */,
+				0583552C28EE80F600655D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0583552D28EE80F600655D9F /* Build configuration list for PBXNativeTarget "neonsign_StoryboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0583552E28EE80F600655D9F /* Debug */,
+				0583552F28EE80F600655D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 058354F528EE80F400655D9F /* Project object */;
+}

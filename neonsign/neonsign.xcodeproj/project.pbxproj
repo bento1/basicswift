@@ -14,6 +14,11 @@
 		058354D028EA03CE00655D9F /* neonsignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058354CF28EA03CE00655D9F /* neonsignTests.swift */; };
 		058354DA28EA03CE00655D9F /* neonsignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058354D928EA03CE00655D9F /* neonsignUITests.swift */; };
 		058354DC28EA03CE00655D9F /* neonsignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058354DB28EA03CE00655D9F /* neonsignUITestsLaunchTests.swift */; };
+		058354EA28EAA79800655D9F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058354E928EAA79800655D9F /* MainStoryboard.storyboard */; };
+		058354ED28EAAF4C00655D9F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058354EC28EAAF4C00655D9F /* MainViewController.swift */; };
+		058354EF28EAB77C00655D9F /* SuguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058354EE28EAB77C00655D9F /* SuguePushViewController.swift */; };
+		058354F128EABFFD00655D9F /* SuguePresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058354F028EABFFD00655D9F /* SuguePresentationViewController.swift */; };
+		058354F328EAC7A100655D9F /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058354F228EAC7A100655D9F /* CodePushViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		058354D528EA03CE00655D9F /* neonsignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neonsignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		058354D928EA03CE00655D9F /* neonsignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neonsignUITests.swift; sourceTree = "<group>"; };
 		058354DB28EA03CE00655D9F /* neonsignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neonsignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		058354E928EAA79800655D9F /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		058354EC28EAAF4C00655D9F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		058354EE28EAB77C00655D9F /* SuguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePushViewController.swift; sourceTree = "<group>"; };
+		058354F028EABFFD00655D9F /* SuguePresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePresentationViewController.swift; sourceTree = "<group>"; };
+		058354F228EAC7A100655D9F /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,8 @@
 		058354BD28EA03CD00655D9F /* neonsign */ = {
 			isa = PBXGroup;
 			children = (
+				058354EB28EAA7A100655D9F /* Controller */,
+				058354E828EAA78700655D9F /* Storyboard */,
 				058354BE28EA03CD00655D9F /* neonsignApp.swift */,
 				058354C028EA03CD00655D9F /* ContentView.swift */,
 				058354C228EA03CE00655D9F /* Assets.xcassets */,
@@ -125,6 +137,25 @@
 				058354DB28EA03CE00655D9F /* neonsignUITestsLaunchTests.swift */,
 			);
 			path = neonsignUITests;
+			sourceTree = "<group>";
+		};
+		058354E828EAA78700655D9F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				058354E928EAA79800655D9F /* MainStoryboard.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		058354EB28EAA7A100655D9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				058354EC28EAAF4C00655D9F /* MainViewController.swift */,
+				058354EE28EAB77C00655D9F /* SuguePushViewController.swift */,
+				058354F028EABFFD00655D9F /* SuguePresentationViewController.swift */,
+				058354F228EAC7A100655D9F /* CodePushViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +264,7 @@
 			files = (
 				058354C628EA03CE00655D9F /* Preview Assets.xcassets in Resources */,
 				058354C328EA03CE00655D9F /* Assets.xcassets in Resources */,
+				058354EA28EAA79800655D9F /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058354EF28EAB77C00655D9F /* SuguePushViewController.swift in Sources */,
+				058354F328EAC7A100655D9F /* CodePushViewController.swift in Sources */,
+				058354ED28EAAF4C00655D9F /* MainViewController.swift in Sources */,
 				058354C128EA03CD00655D9F /* ContentView.swift in Sources */,
+				058354F128EABFFD00655D9F /* SuguePresentationViewController.swift in Sources */,
 				058354BF28EA03CD00655D9F /* neonsignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
