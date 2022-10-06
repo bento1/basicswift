@@ -42,6 +42,9 @@ class ViewController: UIViewController, SendDataDelegate, LEDBoardSettingDelegat
     override func prepare(for segue:UIStoryboardSegue,sender: Any?){
         if let settingViewController = segue.destination as? SettingViewController{
             settingViewController.delegate = self
+            settingViewController.ledText=self.contentLabel.text
+            settingViewController.textColor = self.contentLabel.textColor
+            settingViewController.bgColor = self.view.backgroundColor ?? .black
         }
     }
     func changedSetting(text: String?, textColor: UIColor, backgroundColor: UIColor) {
