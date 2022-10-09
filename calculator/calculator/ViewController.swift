@@ -80,7 +80,7 @@ class ViewController: UIViewController {
                 guard let secondOperand = Double(self.secondOperand) else {return}
                 
                 switch self.currentOperation {
-                case .Add:
+                case .Plus:
                     self.result = "\(firstOperand + secondOperand)"
                 case .Subtract:
                     self.result = "\(firstOperand - secondOperand)"
@@ -92,8 +92,8 @@ class ViewController: UIViewController {
                 default:
                     break
                 }
-                if let result = Double(self.result) , result.truncatingRemainder(dividingBy: 1) == 0{
-                    self.result = "\(Int(result))"
+                if let result_ = Double(self.result) , result_.truncatingRemainder(dividingBy: 1) == 0 {
+                    self.result = "\(Int(result_))"
                 }
                 self.firstOperand = self.result
                 self.numberOutputLabel.text = self.result
