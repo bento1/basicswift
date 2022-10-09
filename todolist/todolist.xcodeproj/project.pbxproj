@@ -16,6 +16,7 @@
 		05C72E0828F2BD8A00AC47EA /* todolistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C72E0728F2BD8A00AC47EA /* todolistTests.swift */; };
 		05C72E1228F2BD8A00AC47EA /* todolistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C72E1128F2BD8A00AC47EA /* todolistUITests.swift */; };
 		05C72E1428F2BD8A00AC47EA /* todolistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C72E1328F2BD8A00AC47EA /* todolistUITestsLaunchTests.swift */; };
+		05C72E2128F2C7F300AC47EA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C72E2028F2C7F300AC47EA /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		05C72E0D28F2BD8A00AC47EA /* todolistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todolistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C72E1128F2BD8A00AC47EA /* todolistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistUITests.swift; sourceTree = "<group>"; };
 		05C72E1328F2BD8A00AC47EA /* todolistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05C72E2028F2C7F300AC47EA /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				05C72DF928F2BD8A00AC47EA /* Assets.xcassets */,
 				05C72DFB28F2BD8A00AC47EA /* LaunchScreen.storyboard */,
 				05C72DFE28F2BD8A00AC47EA /* Info.plist */,
+				05C72E2028F2C7F300AC47EA /* Task.swift */,
 			);
 			path = todolist;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C72E2128F2C7F300AC47EA /* Task.swift in Sources */,
 				05C72DF528F2BD8900AC47EA /* ViewController.swift in Sources */,
 				05C72DF128F2BD8900AC47EA /* AppDelegate.swift in Sources */,
 				05C72DF328F2BD8900AC47EA /* SceneDelegate.swift in Sources */,
