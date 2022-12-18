@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginCompleteViewController: UIViewController {
 
@@ -20,6 +21,13 @@ class LoginCompleteViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = true
+        
+        let email = Auth.auth().currentUser?.email ?? "고객"
+        
+        welcomeLabel.text="""
+            환영합니다.
+            \(email)님
+            """
     }
 
     @IBAction func tapLogoutButton(_ sender: UIButton) {
